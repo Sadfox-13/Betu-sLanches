@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betu's Lanches</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="7KING - O melhor da Região" />
+    <meta property="og:image"
+        content="https://hamburgueria-eta-five.vercel.app/assets/Imagem%20do%20WhatsApp%20de%202025-04-13%20à(s)%2016.32.53_513d5180.jpg" />
+    <meta property="og:description" content="O melhor hamburguer caseiro da atualidade" />
+    <meta property="og:site_name" content="7KING" />
+    <link rel="stylesheet" href="./styles/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--HEADER-->
+    <header class=" w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
+        <div class="w-full h-full flex flex-col justify-center items-center">
+            <img src="./assets/betus.avif" alt="error"
+                class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200">
+            <h1 class="text-4xl mt-4 mb-2 font-bold text-white">Betu's Lanches</h1>
+            <span class="text-white font-medium">Rua Galia , Carapicuíba-SP</span>
+
+            <div class="bg-green-600 px-4 py-1 rounded-lg font-bold mt-5" id="date-span">
+                <span class="text-white font-medium">Seg á Dom - 08:00 as 23:00</span>
+            </div>
+        </div>
+    </header>
+    <!--FIM HEADER-->
+
+    <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">Conheça nosso menu</h2>
+    <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">Lanches</h2>
+
+    <!--INICIO MENU-->
+    <div id="menu">
+
+        <main class="grid grid-cols-1 md:grid-cols-2  gap-7 md:gap-10 mx-auto max-w-7xl  px-2 mb-16">
+
+
+            <!--PRODUTO ITEM-->
+            <div class="flex gap-2 w-full">
+                <img src="./assets/X-SALADA.jpg" alt="ERROR"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+
+                <div class="w-full">
+                    <p class="font-bold">X-SALADA</p>
+                    <p class="text-sm">Pão de Brioche, Hamburguer 90g,Alface americana, tomate, Cebola picada, Maionese,
+                        Cheddar, Catupiry, Molho Especial</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$17.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="X-SALADA"
+                            data-price="17.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO ITEM-->
+
+
+            <!--PRODUTO ITEM-->
+            <div class="flex gap-2 w-full">
+                <img src="./assets/X-BACON.jpg" alt="ERROR"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+
+                <div class="w-full">
+                    <p class="font-bold">X-BACON</p>
+                    <p class="text-sm">Pão de brioche, com azeite, hambúrguer 90g, queijo, bacon, alface americana,
+                        maionese e molho especial</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$25.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="X-BACON" data-price="25.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO ITEM-->
+
+
+
+
+        </main>
+
+        <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+        <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">HOT DOGS</h2>
+        <main class="grid grid-cols-1 md:grid-cols-2  gap-7 md:gap-10 mx-auto max-w-7xl  px-2 mb-16">
+
+            <!--Lanche ITEM-->
+            <div class="flex gap-2 w-full ">
+                <img src="./assets/HOTSIMPLES.jpg" alt="ERROR"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+
+                <div class="w-full">
+                    <p class="font-bold">HOT DOG SIMPLES</p>
+                    <p class="text-sm">Pâo 1 salsicha ,salada, maionese ,catchup ,mostarda , pure de batata natural
+                        ,molho com pedaços de tomate, oregano, noz moscarda, pasta de cebola e alho e ingrediente da
+                        casa</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$16.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="HOT DOG SIMPLES"
+                            data-price="16.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO ITEM-->
+
+            <!--PRODUTO ITEM-->
+            <div class="flex gap-2 w-full">
+                <img src="./assets/HOTCOMPLETO.avif" alt="ERROR"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+
+                <div class="w-full">
+                    <p class="font-bold">HOT DOG COMPLETO</p>
+                    <p class="text-sm">Pâo, 2 Salsicha ,salada, ervilha ,milho, batata palha, cheddar, catchup ,
+                        mostarda ,Catupiry , maionese ,pure de batata natural , molho com pedaços de tomate ,oregano ,
+                        noz moscarda , pasta de cebola e alho e ingrediete da casa</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$22.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="HOT DOG COMPLETO"
+                            data-price="22.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO ITEM-->
+        </main>
+
+
+        <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">HOT DOG PRATO</h2>
+        <main class="grid grid-cols-1 md:grid-cols-2  gap-7 md:gap-10 mx-auto max-w-7xl  px-2 mb-16">
+
+            <!--Lanche ITEM-->
+            <div class="flex gap-2 w-full ">
+                <img src="./assets/HOTPRATO1.jpg" alt="ERROR"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+
+                <div class="w-full">
+                    <p class="font-bold">Hot Dog no prato 1</p>
+                    <p class="text-sm">Pao ,2 salsicha ,salada , milho , ervilha , catchup , mostarda ,maionese, cheddar
+                        , Catupiry ,batata palha ,queijo ralado ,pure de batata natural , molho com pedaços de tomate ,
+                        oregano , nos moscarda , pasta de cebola e alho e ingrediente da casa</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$27.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Hot Dog no prato 1"
+                            data-price="27.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO ITEM-->
+
+            <!--PRODUTO ITEM-->
+            <div class="flex gap-2 w-full">
+                <img src="./assets/HOTPRATO2.avif" alt="ERROR"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+
+                <div class="w-full">
+                    <p class="font-bold">Hot Dog no prato 2</p>
+                    <p class="text-sm">Pao , 2 salsicha , salada , milho , ervilha , catchup , mostarda , maionese ,
+                        Catupiry , batata palha , bacon , queijo ralado , pure de batata natural , molho com pedaços de
+                        tomate oregano , noz moscarda , pasta de cebola e alho e ingrediente da casa</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$31.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Hot Dog no prato 2"
+                            data-price="31.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO ITEM-->
+        </main>
+        <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">Batatas</h2>
+        <main class="grid grid-cols-1 md:grid-cols-2  gap-7 md:gap-10 mx-auto max-w-7xl  px-2 mb-16">
+
+            <!--Lanche ITEM-->
+            <div class="flex gap-2 w-full ">
+                <img src="./assets/batata1.jpg" alt="ERROR"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+
+                <div class="w-full">
+                    <p class="font-bold">Batata com bacon, cheddar e Catupiry</p>
+                    <p class="text-sm">400 gramas 400 Gr de batata+ bacon calabresa cheddar e Catupiry</p>
+
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$20.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                            data-name="Batata com bacon, cheddar e Catupiry" data-price="20.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO ITEM-->
+
+            <!--PRODUTO ITEM-->
+
+            <div class="flex gap-2 w-full">
+                <img src="./assets/batata2.jpg" alt="ERROR"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+
+                <div class="w-full">
+                    <p class="font-bold">Batata doble bacon</p>
+                    <p class="text-sm">400gr de batata o dobro de bancon cheddar Catupiry</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$38.99</p>
+                        <button class="bg-gray-900  px-5 rounded add-to-cart-btn" data-name="Batata doble bacon"
+                            data-price="38.99">
+                            <i class="fa fa-cart-plus text-lg text-white"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO ITEM-->
+
+            <!--PRODUTO ITEM-->
+
+            <div class="flex gap-2 w-full">
+                <img src="./assets/batata3.jpg" alt="ERROR"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+
+                <div class="w-full">
+                    <p class="font-bold">Batata Super</p>
+                    <p class="text-sm">400g de Batata o dobro de Calabresa, Dobro de Bacon, Cheddar, Catupiry</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$45.99</p>
+                        <button class="bg-gray-900 text-white px-5 rounded add-to-cart-btn" data-name="Batata Super"
+                            data-price="45.99"> <i class="fa fa-cart-plus text-lg text-white"></i></button>
+
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO ITEM-->
+
+
+            <!--PRODUTO ITEM-->
+
+            <div class="flex gap-2 w-full">
+                <img src="./assets/batata4.jpg" alt="ERROR"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+
+                <div class="w-full">
+                    <p class="font-bold">Doble Calabresa</p>
+                    <p class="text-sm">400g de batata o dobro de Calabresa, Bacon, Cheddar, Carupiry</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$36.99</p>
+                        <button class="bg-gray-900 text-white px-5 rounded add-to-cart-btn" data-name="Doble Calabresa"
+                            data-price="36.99"> <i class="fa fa-cart-plus text-lg text-white"></i></button>
+
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO ITEM-->
+
+            <!--PRODUTO ITEM-->
+
+            <div class="flex gap-2 w-full">
+                <img src="./assets/batata5.jpg" alt="ERROR"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+
+                <div class="w-full">
+                    <p class="font-bold">Batata Catupiry e Cheddar</p>
+                    <p class="text-sm">200 Gr de batata,cheddar, Catupiry</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$15.99</p>
+                        <button class="bg-gray-900 text-white px-5 rounded add-to-cart-btn"
+                            data-name="Batata Catupiry e Cheddar" data-price="15.99"> <i
+                                class="fa fa-cart-plus text-lg text-white"></i></button>
+
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO ITEM-->
+
+
+        </main>
+
+        <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <!--Bebidas-->
+        <div class="mx-auto max-w-7xl px-2 my-2 flex justify-center">
+            <h2 class="font-bold text-3xl">Bebidas</h2>
+        </div>
+
+        <!--GRID Bebidas-->
+
+        <div class="grid grid-cols-1 md:grid-cols-2  gap-7 md:gap-10 mx-auto max-w-7xl  px-2 mb-16" id="menu">
+            <!--Bebidas ITEM-->
+            <div class="flex gap-2 w-full">
+                <img src="./assets/embreve.jpg" alt="ERROR"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+
+                <div class="w-full">
+                    <p class="font-bold">Coca Cola 320ml</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <!--<p class="font-bold text-lg">R$50.00</p>-->
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="" data-price="">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--FIM Bebidas ITEM-->
+            <!--MATINAIS ITEM-->
+            <div class="flex gap-2 w-full ">
+                <img src="./assets/embreve.jpg" alt="ERROR"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+
+                <div class="w-full">
+                    <p class="font-bold">Pepsi 320ml</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <!--<p class="font-bold text-lg">R$60.00</p>-->
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="" data-price="">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--FIM Bebidas ITEM-->
+        </div>
+
+        <!--FIM GRID Bebidas-->
+        <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+        <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+        <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+        <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+        <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+        <!--MODAL CART-->
+
+        <div class="bg-black/50 w-full h-full fixed top-0 left-0 z-[99]  items-center justify-center hidden  "
+            id="cart-modal">
+
+            <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+                <h2 class="text-center font-bold text-2xl mb-2">Meu carrinho</h2>
+
+                <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
+
+                <p class="font-bold">Total <span id="cart-total">0.00</span></p>
+
+                <p class="font-bold mt-4">Endereço de entrega- <strong class="text-red-600">Entrega acima de R$15,00
+                        reais
+                        por pedido</strong> </p>
+                <input type="text" name="" id="address" placeholder="Digite seu Endereço"
+                    class="w-full border-2 p-1 rounded my-1">
+                <p class="text-red-500 hidden font-bold" id="address-warn">Digite seu endereço completo</p>
+
+                <div class="flex items-center justify-between mt-5 w-full">
+                    <button id="close-modal-btn">Fechar</button>
+                    <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar
+                        pedido</button>
+                </div>
+
+            </div>
+        </div>
+
+        <!--FIM MODAL CART-->
+
+        <!--BUTTOM CART FOOTER-->
+
+        <footer class="w-full bg-red-500 py-3 fixed bottom-0 z-40 flex items-center justify-center">
+            <button class="font-bold text-white flex items-center gap-2" id="cart-btn">
+                (<span id="cart-count">0</span>)
+                Veja meu carrinho
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+        </footer>
+
+        <!--FIM BUTTOM CART FOOTER-->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>
